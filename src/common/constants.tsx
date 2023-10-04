@@ -29,7 +29,7 @@ export const links: LinkProps[] = [
     children: <InstagramIcon size={32} />,
   },
   {
-    href: `https://open.kakao.me/${user.id}`,
+    href: `https://open.kakao.com/me/${user.id}`,
     title: "KakaoTalk",
     children: <KakaoTalkIcon size={32} />,
   },
