@@ -1,4 +1,4 @@
-import { User, LinkProps } from "./types";
+import { UserProps, LinkProps } from "./types";
 import {
   RiInstagramLine as InstagramIcon,
   RiKakaoTalkFill as KakaoTalkIcon,
@@ -6,11 +6,11 @@ import {
   RiMailLine as MailIcon,
 } from "react-icons/ri";
 
-export const user: User = {
+export const user: UserProps = {
   name: "문 지 웅",
   id: "woongsnote",
   work: "Front-End Developer",
-  about: "새로운 기술을 학습하는 것을 즐기는 프론트엔드 개발자",
+  about: "새로운 기술을 학습하는 것을 좋아합니다",
 };
 export const links: LinkProps[] = [
   {

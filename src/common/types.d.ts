@@ -1,6 +1,6 @@
 import { IconBaseProps } from "react-icons";
 
-export type User = {
+export type UserProps = {
   name: string;
   id: string;
   about: string;
