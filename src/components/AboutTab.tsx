@@ -1,19 +1,19 @@
+import AboutInfo from "./AboutInfo";
 import ProfileImage from "./ProfileImage";
 import SocialLinks from "./SocialLinks";
 import UserInfo from "./UserInfo";
 import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
-import { Separator } from "./ui/separator";
 
-const ProfileCard = () => {
+const AboutTab = () => {
   return (
-    <Card className="max-w-md">
+    <Card className="w-96 h-full">
       <CardHeader className="flex items-center justify-center">
         <ProfileImage />
+        <UserInfo />
       </CardHeader>
       <CardContent>
-        <UserInfo />
+        <AboutInfo />
       </CardContent>
-      <Separator />
       <CardFooter className="flex items-center justify-center w-full mx-auto">
         <SocialLinks />
       </CardFooter>
@@ -21,4 +21,4 @@ const ProfileCard = () => {
   );
 };
 
-export default ProfileCard;
+export default AboutTab;

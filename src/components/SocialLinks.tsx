@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { links } from "@/common/constants";
+import { MyLinks } from "@/common/constants";
 import { Button } from "./ui/button";
 
 const SocialLinks = () => {
   return (
     <div className="flex flex-row items-center justify-between gap-8 pt-4">
-      {links.map((link) => (
+      {MyLinks.map((link) => (
         <Button key={link.title} asChild size="icon" variant="outline">
           <Link
             href={link.href}
