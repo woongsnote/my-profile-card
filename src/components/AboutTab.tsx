@@ -6,12 +6,12 @@ import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
 
 const AboutTab = () => {
   return (
-    <Card className="max-w-sm">
+    <Card className="w-96 h-full">
       <CardHeader className="flex items-center justify-center">
         <ProfileImage />
+        <UserInfo />
       </CardHeader>
       <CardContent>
-        <UserInfo />
         <AboutInfo />
       </CardContent>
       <CardFooter className="flex items-center justify-center w-full mx-auto">

@@ -6,7 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 export default function Home() {
   return (
     <main className="flex items-center justify-center p-10 min-h-screen">
-      <Tabs defaultValue="about" className="max-w-md">
+      <Tabs defaultValue="about" className="max-w-sm">
         <TabsList className="grid w-full grid-cols-3">
           <TabsTrigger value="about">About</TabsTrigger>
           <TabsTrigger value="projects">Projects</TabsTrigger>
